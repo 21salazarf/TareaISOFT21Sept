@@ -1,6 +1,13 @@
 <main>
-  <h1>Bonito pal parcial</h1>
+  <h1>Conversor de color</h1>
   <app-componente-a />
-  <app-componente-b />
-  <app-componente-c />
+  <div class="fila">
+    <section class="card">
+      <h2>Componente B</h2>
+      <app-componente-b channel="r" label="Rojo" />
+      <app-componente-b channel="g" label="Verde" />
+      <app-componente-b channel="b" label="Azul" />
+    </section>
+    <app-componente-c />
+  </div>
 </main>
