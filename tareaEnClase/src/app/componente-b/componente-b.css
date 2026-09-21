@@ -1,0 +1,19 @@
+.field {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.letter {
+    width: 60px;
+    font-weight: bold;
+}
+
+input {
+    width: 90px;
+    padding: 6px 8px;
+    font: inherit;
+    border: 1px solid #999;
+    border-radius: 6px;
+}

@@ -1,0 +1,21 @@
+.boxes {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.item {
+    text-align: center;
+}
+
+.box {
+    width: 140px;
+    height: 140px;
+    border: 1px solid #999;
+    border-radius: 8px;
+}
+
+.leyenda {
+    margin-top: 6px;
+    font-size: 0.85rem;
+}

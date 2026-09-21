@@ -1,0 +1,10 @@
+<section class="card">
+    <h2>Componente B</h2>
+    @for (ch of channels; track ch.key) {
+    <label class="field">
+        {{ ch.label }}
+        <input #inp type="number" min="0" max="255" step="1" [value]="color.rgb()[ch.key]"
+            (input)="onInput(ch.key, inp)" />
+    </label>
+    }
+</section>

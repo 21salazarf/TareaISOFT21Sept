@@ -1,0 +1,37 @@
+.row {
+    display: flex;
+    gap: 8px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    font: inherit;
+    font-family: monospace;
+    border: 1px solid #999;
+    border-radius: 6px;
+}
+
+input.invalid {
+    border-color: #c62828;
+}
+
+button {
+    padding: 8px 16px;
+    font: inherit;
+    border: 0;
+    border-radius: 6px;
+    background: #1a73e8;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1558b0;
+}
+
+.msg {
+    color: #c62828;
+    margin: 8px 0 0;
+    font-size: 0.85rem;
+}

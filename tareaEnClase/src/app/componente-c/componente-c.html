@@ -1,0 +1,13 @@
+<section class="card">
+    <h2>Componente C</h2>
+    <div class="boxes">
+        <div class="item">
+            <div class="box" [style.background]="color.css()"></div>
+            <div class="leyenda">Color<br /><code>{{ color.css() }}</code></div>
+        </div>
+        <div class="item">
+            <div class="box" [style.background]="color.grayCss()"></div>
+            <div class="leyenda">Grises (promedio = {{ color.gray() }})<br /><code>{{ color.grayCss() }}</code></div>
+        </div>
+    </div>
+</section>

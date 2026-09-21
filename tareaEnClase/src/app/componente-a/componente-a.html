@@ -1,0 +1,10 @@
+<section class="card">
+    <h2>Componente A</h2>
+    <div class="row">
+        <input #hex type="text" placeholder="#FF8800" maxlength="7" [value]="color.hex()" [class.invalid]="error()" />
+        <button type="button" (click)="show(hex)">show</button>
+    </div>
+    @if (error()) {
+    <p class="msg">Hexadecimal inválido. Usa el formato #RRGGBB o #RGB.</p>
+    }
+</section>
